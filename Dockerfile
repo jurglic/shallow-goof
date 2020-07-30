@@ -1,4 +1,4 @@
-FROM node:12.18.2
+FROM node:12.0.0
 RUN mkdir -p /srv/app
 RUN mkdir -p /app
 COPY package.json /srv/app/package.json
